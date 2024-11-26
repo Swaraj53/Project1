@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestCases.RevenueCalculatorTest">
+        <methods>
+          <include name="Verify_WebPage"/>
+          <include name="ScrollToSlider"/>
+          <include name="moveSlider"/>
+          <include name="Setup"/>
+          <include name="Verify_Header"/>
+          <include name="clickCheckBoxes"/>
+          <include name="Verify_TotalRecurring"/>
+          <include name="NavigateToRevenueCalculatorPage"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- TestCases.RevenueCalculatorTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
